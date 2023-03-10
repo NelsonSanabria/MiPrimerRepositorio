@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,400;0,700;1,300;1,400 & display=swap');
+
+header{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.bYAdDnTqXz1YsbEBhTKZgwHaLH%26pid%3DApi&f=1);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background: hsla(154, 100%, 76%, 1);
+
+background: linear-gradient(225deg, hsla(154, 100%, 76%, 1) 41%, hsla(234, 100%, 83%, 1) 68%, hsla(288, 100%, 81%, 1) 100%);
+
+background: -moz-linear-gradient(225deg, hsla(154, 100%, 76%, 1) 41%, hsla(234, 100%, 83%, 1) 68%, hsla(288, 100%, 81%, 1) 100%);
+
+background: -webkit-linear-gradient(225deg, hsla(154, 100%, 76%, 1) 41%, hsla(234, 100%, 83%, 1) 68%, hsla(288, 100%, 81%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#84FFC9", endColorstr="#AAB2FF", GradientType=1 );
+}
+
+.btn__register-register:hover,
+.btn__register-cover:hover{
+    background: #69F1A1;
+    color: #000;
+
+}
+.btn__header-register,
+.btn__register-cover{
+    padding: 14px 50px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background, color, 300ms;
+}
+.btn__header-register:hover,
+.btn__register-cover:hover{
+    background: #69F1A1;
+    color: #000;
+
+}
+
+.Logo.follow-me.ico{
+    width: 200px;
+    margin-top: -20px;
+    position: relative;
+    filter: drop-shadow(-40 px 0 px 30 px rgba(0,0,0,0.5));
+}
+h3{
+  font-size: 16px;
+  color:black;
+  font-family: sans-serif;
+  padding: 14px 50px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background, color, 300ms;
+}
+.media__cover{
+    width: 50%;
+}
+
+.media__cover video{
+    width: 100%;
+    margin-top: -40px;
+    height="70%"
+    width="70%"
+    padding="40px 40px"
+}
+
+.media__cover video{
+    width: 100%;
+    margin-top: -40px;
+}

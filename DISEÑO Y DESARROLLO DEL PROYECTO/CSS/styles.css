@@ -1,0 +1,101 @@
+head{
+  @import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: Url("imagen/imagendefondo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  * {
+    box-sizing: border-box;
+
+    }
+
+  .contenedor{
+    width: 100%;
+    padding: 15px;
+  }
+
+
+  .formulario{
+    background: #fff;
+    margin-top: 150px;
+    padding: 3px;
+  }
+
+
+  h1{
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+  }
+
+  input[type="text"],
+  input[type="password"]{
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgba(0, 132, 255, 0.377);
+  }
+
+  .input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+  }
+
+  .button{
+    border: none;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 20px;
+    background: rgba(0, 132, 255, 0.733);
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .button:hover{
+    background: cadetblue;
+  }
+
+  h2{
+    color: hwb(192 0% 0%);
+    text-align: center;
+    font-family: Arial;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  h3{
+    color: rgb(0, 255, 115);
+    text-align: center;
+    font-family: Arial;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .link{
+    text-decoration-style: solid;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+  }
+
+  .link:hover{
+    color: rgba(0, 132, 255, 0.733);
+    cursor: pointer;
+  }
+
+  @media(min-width:768px)
+
+  {
+formulario{
+      margin: auto;
+      width: 500%;
+      padding: 150px;
+      border-radius: 2%;
+  }
+  }
